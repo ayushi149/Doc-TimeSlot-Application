@@ -1,0 +1,31 @@
+{
+  "name": "doctor-appoinment-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore './client",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Ayuhsi Devliya",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^5.7.2",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^7.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "react-router-dom": "^6.14.2"
+  }
+}

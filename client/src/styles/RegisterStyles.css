@@ -1,0 +1,32 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+  
+  .register-form {
+
+    border:2px solid gray;
+    padding: 50px;
+    box-shadow: 5px;
+    border-radius: 15px;
+  }
+  .c-header{
+    background-color: rgb(5, 108, 149);
+    color: white;
+
+  }
+  .c-div{
+    box-shadow:0 0 5px rgb(128, 128, 128) ;
+    border: 2px;
+
+  }
+  .containers{
+    color:rgb(5, 108, 149) ;
+  }
+  .c-div:hover{
+    transform: scale(1.2);
+
+  }
